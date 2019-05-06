@@ -1,0 +1,10 @@
+﻿{
+  "Name": "TestMod",
+  "Author": "redacted",
+  "Version": "1.0.0",
+  "Description": "prints item uses by player",
+  "UniqueID": "redacted.TestMod",
+  "EntryDll": "TestMod.dll",
+  "MinimumApiVersion": "2.10.0",
+  "UpdateKeys": []
+}
