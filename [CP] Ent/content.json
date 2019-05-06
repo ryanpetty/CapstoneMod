@@ -1,0 +1,73 @@
+{
+  "Format": "1.6",
+  "Changes": [
+    {
+      "LogName": "NPC Manifestation",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Ent": "adult/polite/neutral/neutral/male/non-datable/null/Other/spring 1//Mountain 87 15/Ent",
+
+      }
+    },
+    {
+      "LogName": "NPC Gift Tastes",
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+		"Ent": "Thank you for the gift, little human, I've never received one so excellent.//Thank you for the gift, human.//I'm sure I can put this somewhere.//I've never been so insulted in my long life!//My thanks, little human./-4/ "
+      }
+    },
+    {
+      "LogName": "Animations",
+      "Action": "EditData",
+      "Target": "Data/animationDescriptions",
+      "Entries": {}
+    },
+    {
+      "LogName": "Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {}
+    },
+    {
+      "LogName": "Schedule Dialogue",
+      "Action": "Load",
+      "Target": "Strings/schedules/Ent",
+      "FromFile": "assets/Schedule/ScheduleDialogue.json"
+    },
+    {
+      "LogName": "Ent Portraits",
+      "Action": "Load",
+      "Target": "Portraits/Ent",
+      "FromFile": "assets/Image/EntPort.png"
+    },
+    {
+      "LogName": "Ent Sprites",
+      "Action": "Load",
+      "Target": "Characters/Ent",
+      "FromFile": "assets/Image/EntSprite.png"
+    },
+    {
+      "LogName": "Dialogue",
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Ent",
+      "FromFile": "assets/Dialogue/Dialogue.json"
+    },
+    {
+      "LogName": "Schedule",
+      "Action": "Load",
+      "Target": "Characters/schedules/Ent",
+      "FromFile": "assets/Schedule/Schedule.json"
+    },
+	{
+	  "LogName": "Events for Mountain",
+	  "Action": "EditData",
+	  "Target": "Data/Events/Mountain",
+	  "Entries": {
+		"170502/v Ent": "desolate/-1000 1000/farmer 76 13 1 Ent 87 16 2/skippable/fade/viewport 84 16/move farmer 4 0 1/move farmer 0 3 2/move farmer 2 0 1/move farmer 0 3 1/speak Ent \"@. I was wondering when I would meet you.\"/pause 100/jump farmer/emote farmer 16/pause 1000/move farmer 5 0 1/move farmer 0 -1 0/pause 250/speak Ent \"Yes, hello little human. You have no need to be afraid - I also befriended your grandfather.\"/pause 500/emote farmer 8/pause 800/speak Ent \"My name? I am not going to tell you my name, not yet at any rate. For one thing it would take a long while: my name is growing all the time, and I've lived a very long, long time; so my name is like a story. Real names tell you the story of things they belong to in my language, in the Old Entish as you might say. It is a lovely language, but it takes a very long time to say anything in it, because we do not say anything in it unless it is worth taking a long time to say, and to listen to.\"/pause 800/speak Ent \"Anyways, little human, there's something you can do for me, as you can move quite quickly compared to me. See, we lost the Entwives and now we cannot find them. I don't suppose you've seen Entwives on your farm?\"/pause 500/emote farmer 8/pause 800/speak Ent \"What do they look like? I don't remember, now. It has been quite some time. Why don't you bring me a sample of the wood on your farm? The Entwives probably look like normal trees to you, so any wood from your farm will do.\"/speak Ent \"Here, take this as a gesture of my thanks.\"/pause 300/farmerEat 403/pause 600/emote farmer 32/globalFade/fade/message \"You should return to the Ent with some wood from your farm.\"/viewport -1000 1000/end dialogue Ent \"Yes, little human, come back here once you have a sample of wood.\"",
+		"170503/v Ent/e 170502/c 1/i 388": "desolate/-1000 1000/farmer 76 13 1 Ent 87 16 2/skippable/fade/viewport 84 16/speed farmer 4/move farmer 4 0 1/move farmer 0 4 2/move farmer 2 0 1/move farmer 0 1 2/move farmer 5 0 0/speak Ent \"Hello little human. Have you brought the sample for me?\"/message \"You give the Ent a log from your farm.\"/removeItem 388/speak Ent \"This is quite an exciting time. I will test and see if this is of an Entwife.\"/pause 500/shake Ent 700/playSound debuffSpell/pause 300/emote farmer 16/pause 200/speak Ent \"Ah. Most unfortunate. I believe your farm only has normal trees.\"/pause 300/speak Ent \"Thank you nonetheless for your help, little human. Here, take this.\"/globalFade/fade/viewport -1000 1000/end dialogue Ent \"Maybe we can still find the Entwives somewhere.\""
+		},
+    },
+  ]
+}  

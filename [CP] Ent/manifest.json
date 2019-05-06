@@ -1,0 +1,13 @@
+{
+
+  "Name": "EntNPC",
+   "Author": "redacted",
+   "Description": "Adds an Ent NPC",
+   "Version": "1.0.0",
+   "UniqueID": "redacted.EntNPC",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [], 
+   
+}

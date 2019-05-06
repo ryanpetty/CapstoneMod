@@ -1,0 +1,21 @@
+{
+    "header": {
+        "target": "w",
+        "formatVersion": 5,
+        "hidef": true,
+        "compressed": true
+    },
+    "readers": [
+        {
+            "type": "Microsoft.Xna.Framework.Content.DictionaryReader`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]",
+            "version": 0
+        },
+        {
+            "type": "Microsoft.Xna.Framework.Content.StringReader",
+            "version": 0
+        }
+    ],
+    "content": {
+		"170502/t 500 1600": "desolate/-1000 1000/farmer 14 36 0 Ent 23 10 2/skippable/fade/viewport 23 25/advancedMove farmer 0 -17 0 3 0 1 0 2 1 0 -2 0 3 0 1 0 -3 0 4 0 1/halt/speak Ent \"I was wondering when I would meet you, new farmer.\"/pause 500/emote farmer 16/pause 1000/move farmer -1 0 2/move farmer 0 -2 0/pause 500/speak Ent \"Yes, hello little human. I may be a talking tree but you have no need to be afraid.\"/pause 500/emote farmer 8/pause 1000/speak Ent \"My name? I am not going to tell you my name, not yet at any rate.$bFor one thing it would take a long while: my name is growing all the time, and I've lived a very long, long time; so my name is like a story.$bReal names tell you the story of things they belong to in my language, in the Old Entish as you might say.$bIt is a lovely language, but it takes a very long time to say anything in it, $bbecause we do not say anything in it unless it is worth taking a long time to say, and to listen to.\"/pause 1000/speak Ent \"Anyways, little human, there's something you can do for me, as you can move quite quickly compared to me.$bSee, we lost the Entwives and now we cannot find them.$bI don't suppose you've seen Entwives on your farm?\"/pause 500/emote farmer 8/pause 1000/speak Ent \"What do they look like? I don't remember, now.$bIt has been quite a long time. Why don't you bring me a sample of the wood on your farm?$bThe Entwives probably look like normal trees to you, so any wood from your farm will do.\"/glovalFade/fade/message \"You should return to the Ent with some wood from your farm.\"/viewport -1000 -1000/end"
+    }
+}
